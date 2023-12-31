@@ -1,67 +1,67 @@
-# Getting Started with Create React App
+# TrackTactics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TrackTactics is a React application that provides users with interactive and engaging experiences related to Formula 1 racing statistics. Users can guess drivers' positions in races across different years and test their F1 knowledge.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Year Selection**: Users can select a specific year to explore Formula 1 driver statistics.
+- **Interactive Stat Cards**: Guessing game where users predict the race positions of drivers.
+- **Dynamic Feedback**: Real-time feedback on user guesses, enhancing the interactive experience.
+- **Responsive Design**: A user-friendly interface that adapts to various screen sizes.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running, follow these simple steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- npm
+  ```sh
+  npm install npm@latest -g
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation
 
-### `npm run build`
+Clone the repository
+git clone https://github.com/ColinSp12/Track-Tactics.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install NPM packages
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
+After installation, you can start the application by running:
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This runs the app in development mode. Open http://localhost:3000 to view it in your browser.
 
-### `npm run eject`
+Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contact
+ - colinspetz1@gmail.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project Link: https://github.com/ColinSp12/Track-Tactics
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Acknowledgments
+React
+Axios
+Formula 1 Ergast API
+markdown
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
