@@ -22,7 +22,7 @@ To get a local copy up and running, follow these simple steps.
 Installation
 
 Clone the repository
-git clone https://github.com/ColinSp12/Track-Tactics.git
+git clone https://github.com/ColinSp12/TrackTactics.git
 
 Install NPM packages
 npm install
@@ -47,7 +47,7 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact
  - colinspetz1@gmail.com
 
-Project Link: https://github.com/ColinSp12/Track-Tactics
+Project Link: https://github.com/ColinSp12/TrackTactics
 
 Acknowledgments
 React
