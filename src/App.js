@@ -88,21 +88,24 @@ const App = () => {
   };
 
   if (isLoading) {
-    return <div className="loading">Loading...</div>;
-  }
-
-  return (
-    <div className="app">
-      <div className="score-board">
-        Score: <span className="score-value">{score}</span>
+    return (
+      <div className="flex justify-center items-center h-screen text-4xl text-blue-700 font-bold">
+        Loading...
       </div>
-      <div className="container">
-        <h1 className="title">TrackTactics</h1>
-        <div className="year-selector">
-          <label>
+    );
+  }
+  return (
+    <div className="font-sans text-gray-800 bg-gradient-to-r from-red-400 to-blue-600 min-h-screen">
+      <div className="fixed top-5 right-5 bg-gradient-to-br from-red-500 to-blue-700 text-white p-4 rounded-lg shadow-lg transition-transform ease-in-out hover:scale-110">
+        Score: <span className="text-lg font-bold">{score}</span>
+      </div>
+      <div className="container mx-auto p-6 bg-white bg-opacity-80 rounded-lg shadow-lg my-10">
+        <h1 className="text-center text-4xl text-red-700 mb-6">TrackTactics</h1>
+        <div className="flex justify-center mb-6">
+          <label className="text-lg text-gray-700">
             Select Year: 
             <select 
-              className="year-dropdown"
+              className="block w-1/2 px-3 py-2 border border-gray-300 rounded-md ml-2 focus:border-red-500 focus:ring focus:ring-red-200"
               value={selectedYear} 
               onChange={handleYearChange}
             >
@@ -113,11 +116,11 @@ const App = () => {
           </label>
         </div>
         {currentStat && (
-          <div className="stat-card-container">
+          <div className="mb-6 bg-gradient-to-r from-red-100 to-blue-100 p-4 rounded-lg shadow-md">
             <StatCard stat={currentStat} onGuess={handleGuess} />
           </div>
         )}
-        <div className="feedback">{userFeedback}</div>
+        <div className="text-center text-lg text-blue-700 mt-6">{userFeedback}</div>
       </div>
     </div>
   );
